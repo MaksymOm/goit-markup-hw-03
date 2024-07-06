@@ -177,6 +177,9 @@ img {
   align-items: center;
   margin: 120px auto;
   gap: 24px;
+}
+
+.benefits-li {
   flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -215,12 +218,13 @@ img {
 
 .our-team-list {
   background-color: #ffffff;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .our-team-ul {
   display: flex;
   align-items: center;
-  flex-basis: calc((100% - 72px) / 4);
+  gap: 24px;
 }
 
 .benefits-title {
