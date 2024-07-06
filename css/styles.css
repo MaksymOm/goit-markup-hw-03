@@ -251,8 +251,13 @@ img {
   text-align: center;
 }
 
-.bt {
+.btt {
   padding: 32px 0;
+}
+
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -264,12 +269,17 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .portfolio-ul {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-li {
   flex-basis: calc((100% - 48px) / 3);
 }
 
@@ -281,11 +291,22 @@ img {
 .header-link-s {
   color: #f4f4fd;
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.footer-link-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
