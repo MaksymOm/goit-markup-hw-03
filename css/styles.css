@@ -32,7 +32,7 @@ img {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0 15px 0 15px;
+  padding: 0;
 }
 
 .header {
@@ -178,6 +178,7 @@ img {
 .benefits-li {
   flex-basis: calc((100% - 72px) / 4);
   margin: 0 auto;
+  padding: 120px 0;
 }
 
 .benefits-title {
