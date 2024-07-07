@@ -169,6 +169,12 @@ img {
   background-color: #404bbf;
 }
 
+.container-benefits {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
 .benefits-ul {
   display: flex;
   align-items: center;
@@ -177,7 +183,7 @@ img {
 
 .benefits-li {
   flex-basis: calc((100% - 72px) / 4);
-  padding: 120px 0 120px;
+  margin: 0 auto;
 }
 
 .benefits-title {
@@ -205,6 +211,7 @@ img {
   background: #f4f4fd;
   padding: 120px 0;
 }
+
 .team-titel {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
