@@ -32,6 +32,7 @@ img {
 .container {
   max-width: 1158px;
   margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 
 .header {
@@ -168,19 +169,15 @@ img {
   background-color: #404bbf;
 }
 
-.benefits {
-  max-height: 334px;
-}
-
 .benefits-ul {
   display: flex;
   align-items: center;
-  margin: 120px auto;
   gap: 24px;
 }
 
 .benefits-li {
   flex-basis: calc((100% - 72px) / 4);
+  padding: 120px 0 120px;
 }
 
 .benefits-title {
